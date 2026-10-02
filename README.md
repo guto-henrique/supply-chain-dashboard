@@ -24,7 +24,7 @@ O projeto usa o arquivo `data/supply_chain_data.csv` com dados de produtos, esto
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/ermklvr/projeto-1
+git clone https://github.com/guto-henrique/projeto-1
 cd projeto-1
 
 # Criar e ativar o ambiente virtual
