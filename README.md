@@ -1,9 +1,6 @@
 # Painel de Análise - Supply Chain
 
 Dashboard interativo de análise de uma cadeia de suprimentos, com filtros na barra lateral e gráficos em Plotly, construído com Streamlit.
-
-
-
 ## Tecnologias
 
 Python, Pandas, Plotly e Streamlit.
