@@ -2,7 +2,7 @@
 
 Dashboard interativo de análise de uma cadeia de suprimentos, com filtros na barra lateral e gráficos em Plotly, construído com Streamlit.
 
-
+![alt text](image.png)
 
 ## Tecnologias
 
