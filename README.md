@@ -1,44 +1,42 @@
 # Painel de Análise - Supply Chain
 
-Painel interativo de análise de dados de uma cadeia de suprimentos, desenvolvido como projeto de portfólio com **Streamlit + Plotly**.
+Dashboard interativo de análise de uma cadeia de suprimentos, com filtros na barra lateral e gráficos em Plotly, construído com Streamlit.
+
+![alt text](image.png)
 
 ## Tecnologias
-- Python
-- Pandas
-- Plotly
-- Streamlit
+
+Python, Pandas, Plotly e Streamlit.
 
 ## Dataset
-[Supply Chain Analysis - Kaggle](https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis)
 
-O projeto usa o arquivo `data/supply_chain_data.csv` com dados de produtos, estoque, frete e inspeções de qualidade.
+[Supply Chain Analysis - Kaggle](https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis): 100 registros com produtos, estoque, frete, fornecedores e inspeções de qualidade.
+
+O arquivo está em data/supply_chain_data.csv.
+Ou baixe o CSV no Kaggle e salve em `data/supply_chain_data.csv`.
 
 ## Análises
+
 - Receita total por tipo de produto
-- Estoque médio por categoria
-- Taxa de defeitos por produto
+- Estoque médio por tipo de produto
+- Taxa de defeitos por tipo de produto
 - Custo médio de frete por transportadora
 - Distribuição dos resultados de inspeção
 
 ## Como rodar
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/guto-henrique/projeto-1
-cd projeto-1
+git clone https://github.com/guto-henrique/supply-chain-dashboard.git
+cd supply-chain-dashboard
 
-# Criar e ativar o ambiente virtual
 python -m venv .venv
 # Windows
 .venv\Scripts\activate
 # Linux/macOS
 source .venv/bin/activate
 
-# Instalar dependências
 pip install -r requirements.txt
-
-# Executar dashboard
 streamlit run app.py
 ```
 
-Depois disso, o dashboard abre no navegador com filtros na barra lateral e gráficos interativos.
+O dashboard abre no navegador em `http://localhost:8501`.
